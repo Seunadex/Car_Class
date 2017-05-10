@@ -1,10 +1,10 @@
 {
   "name": "car_class",
   "version": "1.0.0",
-  "description": "A \u0016`Car` class that can be used to instantiate various vehicles.",
+  "description": "A `Car` class that can be used to instantiate various vehicles.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/jasmine-node spec"
   },
   "author": "Seun Adekunle",
   "license": "MIT",
